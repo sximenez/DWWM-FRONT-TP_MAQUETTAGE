@@ -4,7 +4,7 @@ L'objectif :
 3. Travailler en équipe pour créer un wireframe mobile / desktop
 4. Travailler en équipe pour créer une maquette mobile / desktop
 5. Coder la maquette en HTML / CSS pour en créer un prototype
-6. Travailler en équipe pour présenter le travail
+6. Présenter le travail en équipe
 
 L'image utilisée est propriété de Xiaomi ↓
 <br>
