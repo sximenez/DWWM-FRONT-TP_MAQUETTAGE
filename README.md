@@ -1,4 +1,4 @@
-https://sximenez.github.io/DWWM-FRONT-TP_MAQUETTAGE/
+Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MAQUETTAGE/
 
 L'objectif : 
 1. Comprendre qu'est qu'une LP
