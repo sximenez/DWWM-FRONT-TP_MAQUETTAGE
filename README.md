@@ -10,7 +10,7 @@ L'objectif :
 
 Commentaires :
 1. Toujours faire du mobile first (ne pas commencer par coder la maquette desktop)
-2. Essayer d'améliorer le responsive, notamment au niveau des images
+2. Améliorer le responsive, notamment au niveau des images
 
 L'image utilisée est propriété de Xiaomi ↓
 <br>
