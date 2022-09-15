@@ -2,6 +2,7 @@
   --main-color: #98F1C1;
   --secondary-color : #D9D9D9;
   --w-mobile: 300px;
+  --w-tablet: 600px;
   --w-desktop: 1400px;
 }
 
@@ -55,17 +56,25 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /* ------------------ Media Queries ------------------ */
 
-/* Pour marger sur mobile et tablette*/
-@media (max-width: 1023px) {
+/* Pour marger sur mobile*/
+@media (max-width: 425px) {
   .w-document {
     max-width: var(--w-mobile);
     margin: 0 auto;
   }
 }
 
+/* Pour marger sur tablette*/
+@media (min-width: 426px) {
+  .w-document {
+    max-width: var(--w-tablet);
+    margin: 0 auto;
+  }
+}
+
 /* Pour marger sur desktop */
 @media (min-width: 1024px) {
-  .lg\:w-document {
+  .w-document {
     max-width: var(--w-desktop);
     margin: 0 auto;
   }
@@ -565,8 +574,6 @@ a {
   height: 100vh;
 }
 
-
-
 .lg\:h-screen {
   height: 100vh;
 }
@@ -642,6 +649,10 @@ a {
     width: 25%;
   }
   
+  .lg\:w-30 {
+    width: 30%;
+  }
+  
   .lg\:w-50 {
     width: 50%;
   }
@@ -652,6 +663,10 @@ a {
   
   .lg\:w-full {
     width: 100%;
+  }
+  
+  .lg\:w-auto {
+    width: auto;
   }
   
   .lg\:h-25 {
@@ -685,6 +700,11 @@ a {
   .lg\:h-40vh {
     height: 40vh;
   }
+  
+  .lg\:h-50vh {
+    height: 50vh;
+  }
+
   .lg\:h-90vh {
     height: 90vh;
   }
@@ -732,6 +752,10 @@ a {
 
   .lg\:pt-3 {
     padding-top: 0.75rem;
+  }
+  
+  .lg\:p-6 {
+    padding: 1.5rem;
   }
   
   .lg\:pt-6 {
@@ -816,6 +840,10 @@ a {
   margin: 3.5rem 0;
 }
 
+.my-auto {
+  margin: auto 0;
+}
+
 .my-20 {
   margin: 5rem 0;
 }
@@ -896,6 +924,6 @@ a {
 @media (min-width: 1024px) {
   .lg\:left-65 {
     left: 65%; 
-    transform: translate(-65%);
+    transform: translateX(-65%);
   }
 }

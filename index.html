@@ -30,14 +30,14 @@
       <!-------------------- TOP CTA -------------------->
       <div id="top-cta" class="h-90vh flex flex-col items-center text-center">
         
-        <div id="image">
+        <div id="image" style="overflow: hidden;" class="lg:left-65 lg:w-30 h-full">
 
-          <img class="w-75 md:w-full h-auto mx-auto pb-6 lg:hidden" src="images/trottinette.png" alt="La trottinette qui arrache">
-          <img class="lg:left-65 lg:w-75 md:w-50 mx-auto pb-6 hidden" src="images/trottinette.png" alt="La trottinette qui arrache">
+          <!--<img class="w-full h-auto mx-auto pb-6 lg:hidden" src="images/trottinette.png" alt="La trottinette qui arrache">-->
+          <img style="object-fit: contain;" class="h-full" src="images/trottinette.png" alt="La trottinette qui arrache">
 
         </div>
         
-        <div class="lg:absolute lg:center">
+        <div class="lg:absolute lg:center p-6 md:w-full lg:w-auto lg:p-0 w-document">
           
           <div id="headline">
 
@@ -69,27 +69,31 @@
   <!-------------------- BOTTOM SECTION -------------------->
   <section id="2" class="lg:h-screen">
   
-    <div id="bottom-wrapper" class="lg:h-40vh flex flex-col lg:flex-row lg:mx-auto mt-6 mb-14 lg:w-document w-document">
+    <div id="bottom-wrapper" class="lg:h-40vh w-document flex items-center">
 
       <!-------------------- BOTTOM 3 COLUMNS FLEX -------------------->
-      <div class="my-14 lg:pl-20 flex flex-col justify-center">
-
-        <h3 class="pb-6 text-4xl font-normal uppercase">Personnalise,<br>Affirme toi</h3>
-        <p class="text-lg">Roues, cadre, logo... change tout ce que tu veux, fais-en un objet unique !</p>
-
-      </div>
+      <div class="flex flex-col lg:flex-row items-center justify-center lg:text-center">
       
-      <div class="my-14 lg:px-20 flex flex-col justify-center">
+        <div class="my-20 lg:p-6 w-full flex flex-col justify-center">
 
-        <h3 class="pb-6 text-4xl font-normal uppercase">Bouge<br>rapidement</h3>
-        <p class="text-lg">Batterie de technologie TESLA pour que tu files comme une étoile.</p>
+          <h3 class="pb-6 text-4xl font-normal uppercase">Personnalise,<br>Affirme toi</h3>
+          <p class="text-lg">Roues, cadre, logo... change tout ce que tu veux, fais-en un objet unique !</p>
 
-      </div>
-      
-      <div class="my-14 lg:pr-20 flex flex-col justify-center">
+        </div>
+        
+        <div class="lg:p-6 w-full flex flex-col justify-center">
 
-        <h3 class="pb-6 text-4xl font-normal uppercase">Rejoins une communauté</h3>
-        <p class="text-lg">dynamique, de passionés comme toi.</p>
+          <h3 class="pb-6 text-4xl font-normal uppercase">Bouge<br>rapidement</h3>
+          <p class="text-lg">Batterie de technologie TESLA pour que tu files comme une étoile.</p>
+
+        </div>
+        
+        <div class="my-20 lg:p-6 w-full flex flex-col justify-center">
+
+          <h3 class="pb-6 text-4xl font-normal uppercase">Rejoins une communauté</h3>
+          <p class="text-lg">dynamique, de passionés comme toi.</p>
+
+        </div>
 
       </div>
 
@@ -98,7 +102,7 @@
     <!-------------------- BOTTOM 4 COLUMNS GRID -------------------->
     <div id="bottom-wrapper" class="lg:h-10vh" style="background-color: rgba(0,0,0,0.03);">
     
-      <div id="bottom-logos" style="place-items: center;" class="lg:h-full lg:w-document grid grid-cols-2 lg:grid-cols-4">
+      <div id="bottom-logos" style="place-items: center;" class="lg:h-full w-document grid grid-cols-2 lg:grid-cols-4">
 
         <img width="100px" src="images/logo_1.png" alt="Ceci est un logo" class="m-20 lg:m-0">
         <img width="100px" src="images/logo_2.png" alt="Ceci est un logo" class="m-20 lg:m-0">
@@ -110,7 +114,7 @@
     </div>
 
     <!--------------------BOTTOM CTA -------------------->
-    <div class="lg:h-40vh lg:w-document">
+    <div class="lg:h-40vh w-document">
     
       <div class="my-20 p-6 lg:m-0 lg:h-full flex flex-col items-center justify-center">
 
@@ -122,7 +126,7 @@
     </div>
 
     <!--------------------BOTTOM FOOTER -------------------->
-    <div style="border-top: 1px solid lightgray" class="lg:h-10vh flex flex-col items-center justify-center p-6 lg:w-document">
+    <div style="border-top: 1px solid lightgray" class="lg:h-10vh flex flex-col items-center justify-center p-6">
 
       <div class="w-document flex flex-col lg:flex-row items-center">
       
