@@ -1,6 +1,6 @@
 Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MAQUETTAGE/
 
-L'objectif : 
+Les objectifs : 
 1. Comprendre qu'est qu'une LP
 2. Rechercher des modèles de LP et analyser leur structure
 3. Travailler en équipe pour créer un wireframe mobile / desktop
